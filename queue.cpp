@@ -29,7 +29,7 @@ struct queue_ {
     }
 
     T front() {
-        return front_->data;  // ⚠️ si está vacía, se rompe
+        return front_->data;
     }
 
     bool empty() {
